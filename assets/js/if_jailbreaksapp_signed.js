@@ -1,0 +1,1 @@
+!function(t){{let t=document.getElementById("ifJailbreaksAppSigned").style;t.display="none",fetch("https://api.jailbreaks.app/status").then((t=>t.json())).then((e=>{"Signed"==e.status&&(t.display="block")}))}}();
